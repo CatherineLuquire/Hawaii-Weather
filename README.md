@@ -46,7 +46,7 @@ Used Sqlalchemy to connect to a Hawaii weather sqlite database, then reflected t
  ![Avg Temp Chart](images/avg_temp.png)
 
 ### Part 2
-Designed a Flask app based on queries performed in Part 1, and created the following available routes:
+Designed a Flask app based on queries performed in Part 1, and created the following available API routes:
 1. /api/v1.0/precipitation
 2. /api/v1.0/stations
 3. /api/v1.0/tobs

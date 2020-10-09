@@ -1,6 +1,6 @@
 # Sqlalchemy and Flask API - Advanced Data Storage and Retrieval
 
-Used Sqlalchemy to connect to a Hawaii weather sqlite database, then reflected tables into classes and saved as references Station and Measurement. Next, analysis was performed on different stations and measurement queries. For the second part of the challenge, designed a Flask API based on queries performed in the first step, and used Flask to create API routes. 
+Used Sqlalchemy to read a sqlite file into Python, then performed analysis and created visualizations with Matplotlib. For the second part of the challenge, designed a Flask API based on queries performed in the first step, and used Flask to create API routes. 
 
 ## Table of contents
 
@@ -33,23 +33,21 @@ Used Sqlalchemy to connect to a Hawaii weather sqlite database, then reflected t
 
 ## Installation and Usage
 
+Run Jupyter Notebook and Flask app in Python environment.
 
 ## Development Process
 
-* Used d3 to bind the data to the HTML document and build interactive visualizations including charts, a panel of demograpic information, and a dropdown menu to select different test subjects:
-
-  ![Dropdown Menu](images/dropdown_menu.png)
-* Used Plotly to create interactive chart visualizations including: 
-1. a horizontal bar chart displaying the amount of the 10 most prolific bacteria found in the test subject's belly button.
-  ![Horizontal Bar Chart](images/horizontal_bar_chart.png)
-2. a bubble chart to visualize the amount of each bacteria, scaled to the quantity found.
-  ![Bubble Chart](images/bubble_plot.png)
-3. a gauge to visualize the amount of times the test subject washes their belly button a week.
-  ![Washing Gauge](images/washing_gauge.png)
+Part 1: Used Sqlalchemy to connect to a Hawaii weather sqlite database, then reflected tables into classes and saved references as Station and Measurement. Next, analysis was performed on different station and measurement queries, and visualizations of the following queries were created using matplotlib:
+1. Plotted all preciptation measurements within selected timeframe as a bar chart:
+![Precipitation Chart](images/precipitation.png)
+2. Created a histogram of the last 12 months of temperature observations from Waihee, the station with most observations:
+ ![Temperature Histogram](images/temp-histogram.png)
+3. Created a graph displaying the average temperature with an error bar displaying the minimum and maxium temperature values:
+ ![Avg Temp Chart](images/avg_temp.png)
 
 ## Data Sources
-* [Link to local Belly Button Data](samples.json)
-* Data sourced from: Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+* [Link to local Measurment CSV (Resources/hawaii_measurements.csv)
+
 
 ## Contact
 Created by [Katy Luquire](https://github.com/CatherineLuquire)

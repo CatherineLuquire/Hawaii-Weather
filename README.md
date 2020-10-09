@@ -36,17 +36,21 @@ Used Sqlalchemy to read a sqlite file into Python, then performed analysis and c
 Run Jupyter Notebook and Flask app in Python environment.
 
 ## Development Process
-
+### Part 1
 Part 1: Used Sqlalchemy to connect to a Hawaii weather sqlite database, then reflected tables into classes and saved references as Station and Measurement. Next, analysis was performed on different station and measurement queries, and visualizations of the following queries were created using matplotlib:
 1. Plotted all preciptation measurements within selected timeframe as a bar chart:
-![Precipitation Chart](images/precipitation.png)
+![Precipitation Chart](images/preciptation.png)
 2. Created a histogram of the last 12 months of temperature observations from Waihee, the station with most observations:
- ![Temperature Histogram](images/temp-histogram.png)
+ ![Temperature Histogram](images/temp_histogram.png)
 3. Created a graph displaying the average temperature with an error bar displaying the minimum and maxium temperature values:
  ![Avg Temp Chart](images/avg_temp.png)
+ 
+ 
 
 ## Data Sources
-* [Link to local Measurment CSV (Resources/hawaii_measurements.csv)
+* [Link to local Measurement CSV](Resources/hawaii_measurements.csv)
+* [Link to local Station CSV](Resources/hawaii_stations.csv)
+* [Link to local sqlite file](Resources/hawaii.sqlite)
 
 
 ## Contact

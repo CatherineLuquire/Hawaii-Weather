@@ -47,10 +47,10 @@ Used Sqlalchemy to connect to a Hawaii weather sqlite database, then reflected t
 
 ### Part 2
 Designed a Flask app based on queries performed in Part 1, and created the following available routes:
-/api/v1.0/precipitation
-/api/v1.0/stations
-/api/v1.0/tobs
-/api/v1.0/temp 
+1. /api/v1.0/precipitation
+2. /api/v1.0/stations
+3. /api/v1.0/tobs
+4. /api/v1.0/temp 
 
 ## Data Sources
 * [Link to local Measurement CSV](Resources/hawaii_measurements.csv)

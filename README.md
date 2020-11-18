@@ -5,7 +5,7 @@ Used Sqlalchemy to read a sqlite file into Python, then performed analysis and c
 ## Table of contents
 
 * [Technologies](#technologies)
-* [Installation](#installation)
+* [Installation](#installation-and-usage)
 * [Development Process](#development-process)
 * [Data Sources](#data-sources)
 * [Contact](#contact)

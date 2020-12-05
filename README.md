@@ -1,6 +1,6 @@
-# Sqlalchemy and Flask API - Advanced Data Storage and Retrieval
+# Hawaii Weather Data Storage and Retrieval - Sqlalchemy and Flask API
 
-Used Sqlalchemy to read a sqlite file into Python, then performed analysis and created visualizations with Matplotlib. For the second part of the challenge, designed a Flask API based on queries performed in the first step, and used Flask to create API routes. 
+Created API routes for Hawaii weather with Sqlalchemy and Flask. First I used Sqlalchemy to read a sqlite file into Python, then performed analysis and created visualizations with Matplotlib. Next, I created the API routes based on queries performed in the first step using Flask. 
 
 ## Table of contents
 

@@ -18,6 +18,7 @@ Created API routes for Hawaii weather with Sqlalchemy and Flask. First I used Sq
     * inline - to store plots within jupyter notebook
     * Style - import fivethirtyeight style
     * Pyplot
+    * Patches - mpatches
   * Pandas - 1.0.5
   * Scipy
     * stats
@@ -39,7 +40,7 @@ Run Jupyter Notebook and Flask app in Python environment.
 ### Part 1
 Used Sqlalchemy to connect to a Hawaii weather sqlite database, then reflected tables into classes and saved references as Station and Measurement. Next, analysis was performed on different station and measurement queries, and visualizations of the following queries were created using matplotlib:
 1. Plotted all preciptation measurements within selected timeframe as a bar chart:
-![Precipitation Chart](images/preciptation.png)
+![Precipitation Chart](images/precipitation.png)
 2. Created a histogram of the last 12 months of temperature observations from Waihee, the station with most observations:
  ![Temperature Histogram](images/temp_histogram.png)
 3. Created a graph displaying the average temperature with an error bar for the minimum and maxium temperature values:

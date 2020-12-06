@@ -53,6 +53,12 @@ Designed a Flask app based on queries performed in Part 1, and created the follo
 3. /api/v1.0/tobs
 4. /api/v1.0/temp 
 
+1. Screenshot of API routes visible on homepage:
+ ![API Routes](images/api_routes.png)
+
+2. Screenshot of Precipitation API:
+ ![Precip API](images/precip_api.png)
+
 ## Data Sources
 * [Link to local Measurement CSV](Resources/hawaii_measurements.csv)
 * [Link to local Station CSV](Resources/hawaii_stations.csv)
